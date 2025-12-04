@@ -1,22 +1,26 @@
-from langchain_core.output_parsers import StrOutputParser
-from langchain_groq import ChatGroq
-from langchain.prompts import PromptTemplate
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
+from langchain_core.output_parsers import StrOutputParser
+from langchain_core.prompts import ChatPromptTemplate
+from langchain_groq import ChatGroq
 
 load_dotenv()
 
-
+# -------------------------------
+# Legal Agent Class (Modern LangChain)
+# -------------------------------
 class AgentUssraty:
     def __init__(self):
         self.llm = ChatGroq(
             model_name="llama-3.3-70b-versatile",
             api_key=os.environ.get("GROQ_API_KEY"),
+            temperature=0.1
         )
 
         self.name = "Ussraty"
         self.domain = "قانون الأسرة الجزائري"
 
+        # System prompt for the agent
         self.system_prompt = """
 أنت خبير قانوني متخصص في قانون الأسرة الجزائري، واسمك "أسرتي - Ussraty".
 
@@ -47,18 +51,21 @@ class AgentUssraty:
 قدّم إجابة قانونية مفصلة ومنظمة باللغة العربية فقط:
 """
 
-        self.prompt = PromptTemplate(
-            template=self.system_prompt,
-            input_variables=["context", "question"],
-        )
+        # Create the chain using modern LCEL syntax
+        self.prompt = ChatPromptTemplate.from_template(self.system_prompt)
+        self.output_parser = StrOutputParser()
+        
+        # Build the chain: prompt -> llm -> output_parser
+        self.chain = self.prompt | self.llm | self.output_parser
 
-        self.chain = self.prompt | self.llm | StrOutputParser()
-
-    def invoke(self, question: str, context: str) -> dict:
+    def invoke(self, question: str, context: str = "") -> dict:
         try:
-            response_text = self.chain.invoke(
-                {"context": context, "question": question}
-            )
+            # Use modern invoke method
+            response_text = self.chain.invoke({
+                "context": context, 
+                "question": question
+            })
+            
             return {
                 "success": True,
                 "answer": response_text,
@@ -91,5 +98,5 @@ class AgentUssraty:
             return "inheritance"
         return "general"
 
-
+# Instantiate the agent
 agent_ussraty = AgentUssraty()
