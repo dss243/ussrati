@@ -4,7 +4,6 @@ import Hero from './components/Hero';
 import Services from './components/Services';
 import Laws from './components/Laws';
 import Chatbot from './components/Chatbot';
-import Resources from './components/Resources';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './styles/App.css';
@@ -47,7 +46,6 @@ function App() {
       <Services />
       <Laws />
       <Chatbot />
-      <Resources />
       <Contact />
       <Footer scrollToSection={scrollToSection} />
     </div>

@@ -5,10 +5,9 @@ const Navbar = ({ currentSection, scrollToSection }) => {
 
   const navItems = [
     { id: 'home', label: 'الرئيسية' },
-    { id: 'services', label: 'الخدمات' },
     { id: 'laws', label: 'القوانين' },
     { id: 'chatbot', label: 'المساعد' },
-    { id: 'resources', label: 'المصادر' },
+
     { id: 'contact', label: 'اتصل بنا' }
   ];
 
@@ -17,7 +16,7 @@ const Navbar = ({ currentSection, scrollToSection }) => {
       <div className="nav-container">
         <div className="nav-logo">
           <div className="logo-icon">⚖️</div>
-          <span className="logo-text">الغرفة أُسْرَة</span>
+          <span className='logo-text'> اسرتي</span>
         </div>
         
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>

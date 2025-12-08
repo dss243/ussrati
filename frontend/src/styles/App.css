@@ -68,7 +68,9 @@ body {
   background-clip: text;
   position: relative;
 }
-
+.Page{
+  margin: 0 50px;
+}
 .section-title::after {
   content: '';
   position: absolute;
@@ -184,11 +186,7 @@ body {
 }
 
 .logo-icon {
-  font-size: 2rem;
-  background: var(--gradient-primary);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  
 }
 
 .nav-menu {
@@ -269,8 +267,10 @@ body {
 }
 
 .hero-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 4rem;
   position: relative;
@@ -316,11 +316,12 @@ body {
   gap: 1.5rem;
   margin-bottom: 3rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hero-stats {
   display: flex;
-  gap: 2rem;
+  gap: 20rem;
 }
 
 .stat {

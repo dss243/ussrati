@@ -16,18 +16,13 @@ const Services = () => {
       icon: 'fas fa-child-reaching',
       title: 'الحضانة وكفالة الأطفال',
       description: 'حقوق الحضانة، النفقة، زيارات الوالدين وأحكام المحاكم'
-    },
-    {
-      icon: 'fas fa-coins',
-      title: 'النفقة والميراث',
-      description: 'حساب النفقة، حقوق الميراث، التقسيم العادل'
     }
   ];
 
   return (
-    <section className="services">
+    <section className=" services ">
       <h2>خدماتنا القانونية</h2>
-      <div className="services-grid">
+      <div className="Page services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
             <div className="service-icon">

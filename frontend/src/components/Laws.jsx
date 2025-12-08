@@ -47,7 +47,7 @@ const Laws = () => {
   };
 
   return (
-    <section id="laws" className="laws">
+    <section id="laws" className="Page laws">
       <div className="container">
         <h2 className="section-title">القوانين والتشريعات</h2>
         <p className="section-subtitle">أهم القوانين المنظمة للأسرة في التشريع الجزائري</p>
