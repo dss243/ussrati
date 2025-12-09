@@ -1,4 +1,4 @@
-# ![Ussraty Logo](frontend/public/logo.png) Ussraty
+# <img src="frontend/public/logo.png" alt="Ussraty Logo" width="120"/> Ussraty
 
 **Ussraty – Algerian Family Legal Assistant (RAG System)**  
 A comprehensive platform providing legal consultations in personal status and family law in Algeria. We provide the necessary information and guidance to protect your rights and your family's rights.
