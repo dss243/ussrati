@@ -1,6 +1,6 @@
-# ⚖️ Ussraty
+# ![Ussraty Logo](frontend/public/logo.png) Ussraty
 
-**Ussraty – Algerian Family Legal Assistant**  
+**Ussraty – Algerian Family Legal Assistant (RAG System)**  
 A comprehensive platform providing legal consultations in personal status and family law in Algeria. We provide the necessary information and guidance to protect your rights and your family's rights.
 
 ---
@@ -40,7 +40,7 @@ A comprehensive platform providing legal consultations in personal status and fa
 
 ## 📜 Laws & Legislation
 
-**Family Law in Algeria** – Key articles:
+**Family Law in Algeria – Key Articles:**
 
 - **Articles 4-10: Marriage Conditions**  
   Requirements for a valid marriage: consent, eligibility, guardian, witnesses.
@@ -67,16 +67,7 @@ Get instant answers for your legal inquiries in family law:
 
 ---
 
-## 📞 Contact Us
 
-We are here to help with any legal inquiries.
-
-- **Address:** Algiers, Judiciary District  
-- **Phone:** +213 123 456 789  
-- **Email:** info@ghout-ousra.dz  
-- **Working Hours:** Sunday - Thursday: 08:00 - 16:00
-
----
 
 ## 📝 Submit a Consultation
 
@@ -91,7 +82,7 @@ We are here to help with any legal inquiries.
 
 ## 🌐 About Ussraty
 
-**Ussraty** is a comprehensive legal platform aimed at educating Algerian citizens about their legal rights in personal status and family law.
+**Ussraty (RAG System)** is a comprehensive legal platform aimed at educating Algerian citizens about their legal rights in personal status and family law.
 
 ---
 
@@ -113,4 +104,4 @@ Subscribe to receive the latest legal updates:
 
 ---
 
-© 2024 **Ussraty**. All rights reserved.
+© 2025 **Ussraty**. All rights reserved.
