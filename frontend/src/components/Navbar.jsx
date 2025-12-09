@@ -7,18 +7,26 @@ const Navbar = ({ currentSection, scrollToSection }) => {
     { id: 'home', label: 'الرئيسية' },
     { id: 'laws', label: 'القوانين' },
     { id: 'chatbot', label: 'المساعد' },
-
     { id: 'contact', label: 'اتصل بنا' }
   ];
 
   return (
     <nav className="navbar">
       <div className="nav-container">
+
+        {/* LOGO */}
         <div className="nav-logo">
-          <div className="logo-icon">⚖️</div>
-          <span className='logo-text'> اسرتي</span>
+          <div className="logo-icon">
+            <img 
+              src="/logo.png"
+              alt="Logo"
+              className="logo-img"
+            />
+          </div>
+          <span className='logo-text'></span>
         </div>
-        
+
+        {/* MENU */}
         <ul className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
           {navItems.map(item => (
             <li key={item.id} className="nav-item">
@@ -37,6 +45,7 @@ const Navbar = ({ currentSection, scrollToSection }) => {
           ))}
         </ul>
 
+        {/* BURGER MENU */}
         <div 
           className={`nav-toggle ${isMenuOpen ? 'active' : ''}`}
           onClick={() => setIsMenuOpen(!isMenuOpen)}

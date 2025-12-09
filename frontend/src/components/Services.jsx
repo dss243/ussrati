@@ -20,8 +20,17 @@ const Services = () => {
   ];
 
   return (
-    <section className=" services ">
-      <h2>خدماتنا القانونية</h2>
+    <section className="services">
+      
+      {/* 🔥 Logo instead of page title */}
+      <div className="services-logo">
+        <img 
+          src="/logo.png" 
+          alt="Logo" 
+          className="services-logo-img"
+        />
+      </div>
+
       <div className="Page services-grid">
         {services.map((service, index) => (
           <div key={index} className="service-card">
@@ -33,6 +42,7 @@ const Services = () => {
           </div>
         ))}
       </div>
+
     </section>
   );
 };

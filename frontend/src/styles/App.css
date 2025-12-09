@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #006633;
-  --primary-light: #338033;
-  --primary-dark: #004d26;
+  --primary-color: #042d19ff;
+  --primary-light: #283201ff;
+  --primary-dark: #023a1eff;
   --secondary-color: #d21034;
   --secondary-light: #e63946;
   --accent-color: #ff6b6b;
@@ -36,6 +36,14 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
+.logo-img {
+  width: 70px;   /* change size if needed */
+  height: auto;
+ 
+}
+
+
+
 
 body {
   font-family: 'Segoe UI', 'Tajawal', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,6 +55,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.services-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.services-logo-img {
+  width: 250px; /* adjust as you wish */
+  height: auto;
+}
+
 
 .container {
   max-width: 1280px;

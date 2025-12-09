@@ -31,7 +31,7 @@ const Footer = ({ scrollToSection }) => {
           <div className="footer-section">
             <div className="footer-logo">
               <div className="logo-icon">⚖️</div>
-              <span className="logo-text">غُفْت أُسْرَة</span>
+              <span className="logo-text">غرفة الأسرة</span>
             </div>
             <p className="footer-description">
               منصة قانونية متكاملة تهدف إلى توعية المواطن الجزائري بحقوقه القانونية 
@@ -79,7 +79,7 @@ const Footer = ({ scrollToSection }) => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; 2024 غُفْت أُسْرَة. جميع الحقوق محفوظة.</p>
+          <p>&copy; 2025 غرفة الأسرة. جميع الحقوق محفوظة.</p>
           <div className="footer-bottom-links">
             <a href="#">سياسة الخصوصية</a>
             <a href="#">شروط الاستخدام</a>
