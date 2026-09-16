@@ -1,12 +1,22 @@
-# <img src="frontend/public/logo.png" alt="Ussraty Logo" width="100"/> Ussraty
+<div align="center">
+
+<img src="frontend/public/logo.png" alt="Ussraty Logo" width="140"/>
+
+# Ussraty
 
 ### 🇩🇿 Algerian Family Legal Assistant — RAG System
+
+**AI-powered legal information assistant for Algerian personal status and family law.**
+
+
+
+---
 
 **Ussraty** is an AI-powered legal assistance platform designed to provide Algerian citizens with accessible information about **personal status and family law**.
 
 The platform combines **Retrieval-Augmented Generation (RAG)** with Algerian legal resources to provide contextual answers to family-law questions while helping users explore relevant laws and legal articles.
 
->  **Disclaimer:** Ussraty provides general legal information for educational purposes only and does not replace advice from a qualified lawyer.
+> ⚠️ **Disclaimer:** Ussraty provides general legal information for educational purposes only and does not replace advice from a qualified lawyer.
 
 ---
 
@@ -14,7 +24,7 @@ The platform combines **Retrieval-Augmented Generation (RAG)** with Algerian leg
 
 ### Landing Page
 
-<img src="frontend/public/langingpage.png" alt="Ussraty Landing Page" width="100%"/>
+<img src="frontend/public/landingpage.png" alt="Ussraty Landing Page" width="100%"/>
 
 ### Legal Assistant
 
