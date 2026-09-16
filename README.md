@@ -94,14 +94,4 @@ Get instant answers for your legal inquiries in family law:
 - Assistant
 - Resources
 
----
 
-## 📬 Newsletter
-
-Subscribe to receive the latest legal updates:
-
-- Email: `[Your Email]`
-
----
-
-© 2025 **Ussraty**. All rights reserved.
