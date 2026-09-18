@@ -8,7 +8,11 @@
 
 **AI-powered legal information assistant for Algerian personal status and family law.**
 
-
+<p align="center">
+  🌐 <a href="https://ussrati-opal.vercel.app/" target="_blank">
+    <strong>Visit the Live Platform →</strong>
+  </a>
+</p>
 
 ---
 
@@ -207,12 +211,3 @@ Ussraty is an **informational and educational tool**.
 The information provided by the platform should not be considered professional legal advice. Users should consult a qualified legal professional for advice regarding their specific situation.
 
 ---
-
-## 🔗 Quick Links
-
-* 🏠 Home
-* 🏛️ Services
-* 📜 Laws
-* 🤖 Legal Assistant
-* 📚 Resources
-* 📝 Consultation
